@@ -10,6 +10,6 @@ class Gigasecond {
         this.date = dateTime.plusSeconds(1000000000)
     }
     constructor(datetime : LocalDateTime) {
-        this.date = datetime.plusSeconds(1000000000)
+        this.date = datetime.plusSeconds(1_000_000_000)
     }
 }
